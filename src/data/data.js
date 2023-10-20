@@ -1,14 +1,14 @@
 const socialLinks = [
-  "https://github.com/vigneshshettyin",
+  "https://github.com/Bairminer",
   "https://linkedin.com/in/vigneshshettyin",
   "https://twitter.com/vigneshshettyin",
-  "https://instagram.com/vigneshshettyin",
+  "https://instagram.com/bairminer",
   "https://facebook.com/vigneshshettyin",
 ];
 const profileData = {
-  userName: "vigneshshettyin",
-  photoLink: "https://github.com/vigneshshettyin.png",
-  desc: "Tech Geek | Mentor @ DeltaSJEC",
+  userName: "Bairminer",
+  photoLink: "https://imgur.com/6RhBRAv",
+  desc: "taking over the world | △ ☽ α",
 };
 
 const themeData = {
