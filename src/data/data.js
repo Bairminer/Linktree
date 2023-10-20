@@ -7,7 +7,7 @@ const socialLinks = [
 ];
 const profileData = {
   userName: "Bairminer",
-  photoLink: "https://imgur.com/6RhBRAv",
+  photoLink: "https://i.imgur.com/c16rgFI.png",
   desc: "taking over the world | △ ☽ α",
 };
 
@@ -23,7 +23,7 @@ const themeData = {
     CardtextColor: "#2d3436",
   },
   dark: {
-    backgroundColor: "#000000",
+    backgroundColor: "#181a1f",
     onHoverBackgroundColor: "#02040a",
     cardBackgroundColor: "#222222",
     onHoverTextColor: "white",
@@ -36,24 +36,24 @@ const themeData = {
 const linkData = [
   {
     id: 1,
-    link: "https://go.vigneshcodes.in/meetly",
-    name: "Meetly - Conferencing App",
+    link: "https://steamcommunity.com/id/bairminer/",
+    name: "Steam",
     image:
-      "https://github.com/vigneshshettyin.png",
+      "https://en.wikipedia.org/wiki/File:Steam_icon_logo.svg",
   },
   {
     id: 2,
-    link: "https://go.vigneshcodes.in/certify",
-    name: "Certify - Certification App",
+    link: "https://www.youtube.com/@bairminer",
+    name: "Youtube",
     image:
-      "https://play-lh.googleusercontent.com/QYc9QNf0_c-M7rhF4eo8daWbIRg_ukwzabR3Xj9TX_6zxG-AbzhKF5NS3CAd2X79fm0=s360-rw",
+      "https://en.m.wikipedia.org/wiki/File:YouTube_social_white_square_%282017%29.svg",
   },
   {
     id: 3,
-    link: "https://eurl.tech",
-    name: "EatMyUrl - Free URL Shortener",
+    link: "https://open.spotify.com/user/bairminer",
+    name: "Spotifyr",
     image:
-      "https://play-lh.googleusercontent.com/QYc9QNf0_c-M7rhF4eo8daWbIRg_ukwzabR3Xj9TX_6zxG-AbzhKF5NS3CAd2X79fm0=s360-rw",
+      "https://en.m.wikipedia.org/wiki/File:Spotify_icon.svg",
   },
   {
     id: 4,
