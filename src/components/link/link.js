@@ -24,8 +24,8 @@ const Link = () => {
               <LazyLoadImage
                 id="image"
                 effect="blur"
-                src={`https://ui-avatars.com/api/?rounded=true&name=${item.name}&background=random`}
-                alt="my_profile_image"
+                src={`${item.image}`}
+                alt={`https://ui-avatars.com/api/?rounded=true&name=${item.name}&background=random`}
               />
               <p className="text-center">{item.name}</p>
             </CustomDiv>
