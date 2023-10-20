@@ -3,7 +3,7 @@ const socialLinks = [
   "https://linkedin.com/in/vigneshshettyin",
   "https://twitter.com/vigneshshettyin",
   "https://instagram.com/bairminer",
-  "https://facebook.com/vigneshshettyin",
+  "https://www.facebook.com/Bairminer/n",
 ];
 const profileData = {
   userName: "Bairminer",
@@ -39,7 +39,7 @@ const linkData = [
     link: "https://steamcommunity.com/id/bairminer/",
     name: "Steam",
     image:
-      "https://en.wikipedia.org/wiki/File:Steam_icon_logo.svg",
+      "https://i.imgur.com/c16rgFI.png",
   },
   {
     id: 2,
