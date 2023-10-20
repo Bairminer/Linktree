@@ -39,21 +39,21 @@ const linkData = [
     link: "https://steamcommunity.com/id/bairminer/",
     name: "Steam",
     image:
-      "https://1000logos.net/wp-content/uploads/2020/08/Steam-Logo-800x500.png",
+      "https://commons.wikimedia.org/wiki/File:Steam_Logo.png",
   },
   {
     id: 2,
     link: "https://www.youtube.com/@bairminer",
     name: "Youtube",
-    image:
-      "https://1000logos.net/wp-content/uploads/2017/05/Red-YouTube-logo-768x432.png",
+    image: 
+      "https://commons.wikimedia.org/wiki/File:Youtube-.png",
   },
   {
     id: 3,
     link: "https://open.spotify.com/user/bairminer",
     name: "Spotifyr",
     image:
-      "https://1000logos.net/wp-content/uploads/2021/04/Spotify-logo-768x432.png",
+      "https://commons.wikimedia.org/wiki/File:Spotify_1.png",
   },
 ];
 
