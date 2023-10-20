@@ -39,21 +39,21 @@ const linkData = [
     link: "https://steamcommunity.com/id/bairminer/",
     name: "Steam",
     image:
-      "https://commons.wikimedia.org/wiki/File:Steam_Logo.png",
+      "https://upload.wikimedia.org/wikipedia/commons/c/c1/Steam_Logo.png",
   },
   {
     id: 2,
     link: "https://www.youtube.com/@bairminer",
     name: "Youtube",
     image: 
-      "https://commons.wikimedia.org/wiki/File:Youtube-.png",
+      "https://upload.wikimedia.org/wikipedia/commons/4/4a/Youtube-.png",
   },
   {
     id: 3,
     link: "https://open.spotify.com/user/bairminer",
-    name: "Spotifyr",
+    name: "Spotify",
     image:
-      "https://commons.wikimedia.org/wiki/File:Spotify_1.png",
+      "https://upload.wikimedia.org/wikipedia/commons/9/9b/Spotify_1.png",
   },
 ];
 
