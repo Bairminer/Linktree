@@ -1,14 +1,7 @@
-const socialLinks = [
-  "https://github.com/Bairminer",
-  "https://linkedin.com/in/vigneshshettyin",
-  "https://twitter.com/vigneshshettyin",
-  "https://instagram.com/bairminer",
-  "https://www.facebook.com/Bairminer/n",
-];
 const profileData = {
   userName: "Bairminer",
   photoLink: "https://i.imgur.com/c16rgFI.png",
-  desc: "taking over the world | △ ☽ α",
+  desc: "taking over the world",
 };
 
 const themeData = {
@@ -57,4 +50,8 @@ const linkData = [
   },
 ];
 
-export { socialLinks, profileData, linkData, themeData };
+const footerData = {
+  text: "△ ☽ α",
+};
+
+export { profileData, linkData, themeData, footerData };

@@ -1,58 +1,55 @@
-import styled from "styled-components";
-import { SocialIcon } from "react-social-icons";
-import { socialLinks, themeData } from "../../data/data";
-import themeContext from "../../state/context/themeContext";
 import { useContext } from "react";
+import styled from "styled-components";
+import { Zoom } from "react-reveal";
+import { footerData, themeData } from "../../data/data";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import DarkModeToggle from "react-dark-mode-toggle";
+import themeContext from "../../state/context/themeContext";
+import "react-lazy-load-image-component/src/effects/blur.css";
+
 const Footer = () => {
   const a = useContext(themeContext);
-
-  const footerSocialLinkColor = () => {
-    if (a.darkMode) return themeData.dark.footerSocialLinkColor;
-    else return themeData.light.footerSocialLinkColor;
-  };
-
-  const SocialIconStyle = {
-    width: "30px",
-    height: "30px",
-    borderRadius: "50%",
-    backgroundColor: footerSocialLinkColor(),
-  };
+  const desc = footerData["text"];
+  if (!a.darkMode) {
+    document.body.style.backgroundColor = themeData.dark.backgroundColor;
+  } else {
+    document.body.style.backgroundColor = themeData.light.backgroundColor;
+  }
 
   return (
-    <>
-      <div className="bottom">
-        <hr />
-        <FooterContainer>
-          {socialLinks.map((link, index) => {
-            return (
-              <FooterContent key={index}>
-                <SocialIcon
-                  className="shadow"
-                  style={SocialIconStyle}
-                  url={link}
-                />
-              </FooterContent>
-            );
-          })}
-        </FooterContainer>
-      </div>
-    </>
+      <>
+        <DarkMode onChange={a.setDarkMode} checked={a.darkMode} size={50} />
+        <Zoom>
+          <FooterWrapper>
+            <UserNameText props={a.darkMode ? themeData.light : themeData.dark}>
+              {desc}
+            </UserNameText>
+          </FooterWrapper>
+        </Zoom>
+      </>
   );
 };
-
 export default Footer;
 
-const FooterContainer = styled.div`
-  width: 100vw;
-  display: flex;
-  margin-bottom: 10px;
-  align-items: center;
-  justify-content: center;
+const DarkMode = styled(DarkModeToggle)`
+  margin: 15px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
 `;
 
-const FooterContent = styled.div`
-  margin: 5px;
-  :hover {
-    transform: scale(1.1);
-  }
+const FooterWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+`;
+
+
+const UserNameText = styled.h6`
+  color: ${(props) => props.props.headerFontColor};
+  font-weight: bold;
+  text-align: center;
 `;

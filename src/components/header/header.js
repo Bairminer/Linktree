@@ -17,20 +17,20 @@ const Header = () => {
   }
 
   return (
-    <>
-      <DarkMode onChange={a.setDarkMode} checked={a.darkMode} size={50} />
-      <Zoom>
-        <HeaderWrapper>
-          <CustomImage effect="blur" src={photoLink} />
-          <UserNameText props={a.darkMode ? themeData.light : themeData.dark}>
-            @{userName}
-          </UserNameText>
-          <UserNameText props={a.darkMode ? themeData.light : themeData.dark}>
-            {desc}
-          </UserNameText>
-        </HeaderWrapper>
-      </Zoom>
-    </>
+      <>
+        <DarkMode onChange={a.setDarkMode} checked={a.darkMode} size={50} />
+        <Zoom>
+          <HeaderWrapper>
+            <CustomImage effect="blur" src={photoLink} />
+            <UserNameText props={a.darkMode ? themeData.light : themeData.dark}>
+              @{userName}
+            </UserNameText>
+            <UserNameText props={a.darkMode ? themeData.light : themeData.dark}>
+              {desc}
+            </UserNameText>
+          </HeaderWrapper>
+        </Zoom>
+      </>
   );
 };
 export default Header;
