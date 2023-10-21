@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import styled from "styled-components";
 import { Zoom } from "react-reveal";
-import { profileData, themeData } from "../../data/data";
+import { profileData, themeData, quotes } from "../../data/data";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import DarkModeToggle from "react-dark-mode-toggle";
 import themeContext from "../../state/context/themeContext";
@@ -10,6 +10,8 @@ import "react-lazy-load-image-component/src/effects/blur.css";
 const Header = () => {
   const a = useContext(themeContext);
   const { userName, photoLink, desc } = profileData;
+  const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+  
   if (!a.darkMode) {
     document.body.style.backgroundColor = themeData.dark.backgroundColor;
   } else {
@@ -28,6 +30,9 @@ const Header = () => {
             <UserNameText props={a.darkMode ? themeData.light : themeData.dark}>
               {desc}
             </UserNameText>
+            <QuoteText props={a.darkMode ? themeData.light : themeData.dark}>
+              {randomQuote}
+            </QuoteText>
           </HeaderWrapper>
         </Zoom>
       </>
@@ -60,5 +65,12 @@ const CustomImage = styled(LazyLoadImage)`
 const UserNameText = styled.h6`
   color: ${(props) => props.props.headerFontColor};
   font-weight: bold;
+  text-align: center;
+`;
+
+const QuoteText = styled.h6`
+  color: ${(props) => props.props.headerFontColor};
+  font-weight: bold;
+  font-style: italic
   text-align: center;
 `;
