@@ -8,6 +8,8 @@ Changes:
 - Changed footer to contain only text
 - Changed dark theme colors
 
+---
+
 ![W1pVACsPZ](https://user-images.githubusercontent.com/77713888/148638710-3512fb8a-1858-4580-9c68-d7ca33d146eb.jpg)
 
 # Create Linktree Clone
