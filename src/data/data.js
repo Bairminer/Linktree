@@ -104,10 +104,10 @@ const footerData = {
 };
 
 const quotes = [
-  "Some people, I'd fight the world for.",
-  "We make our own luck.",
-  "Good luck. Don't fail.",
-  "Sweat memes, sweet dreams."
+  '"Some people, I'd fight the world for."',
+  '"We make our own luck."',
+  '"Good luck. Don't fail."',
+  '"Sweat memes, sweet dreams."',
 ];
 
 export { profileData, linkData, themeData, footerData, quotes };
