@@ -39,7 +39,9 @@ const Link = () => {
 export default Link;
 
 const CustomDiv = styled.div`
-  margin-left: -10px;
+  margin-left: auto;
+  margin-right: auto;
+  position:relative;
   margin-bottom: 15px;
   border-radius: 15px;
   cursor: pointer;
@@ -75,7 +77,7 @@ const CustomDiv = styled.div`
 
 const ParentWrapper = styled.div`
   margin-top: 20px;
-  width: 100vw;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
