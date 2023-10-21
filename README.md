@@ -1,3 +1,13 @@
+# Fork of Linktree Clone
+Changes:
+- Changed icons to use URL instead of auto generated text icons
+- Added a randomly changing quote
+- Added a randomly changing song
+- Fixed button alignment on desktop
+- Made text in buttons centered to page
+- Changed footer to contain only text
+- Changed dark theme colors
+
 ![W1pVACsPZ](https://user-images.githubusercontent.com/77713888/148638710-3512fb8a-1858-4580-9c68-d7ca33d146eb.jpg)
 
 # Create Linktree Clone
