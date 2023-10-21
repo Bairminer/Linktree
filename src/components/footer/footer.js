@@ -2,7 +2,6 @@ import { useContext } from "react";
 import styled from "styled-components";
 import { Zoom } from "react-reveal";
 import { footerData, themeData } from "../../data/data";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 import DarkModeToggle from "react-dark-mode-toggle";
 import themeContext from "../../state/context/themeContext";
 import "react-lazy-load-image-component/src/effects/blur.css";
