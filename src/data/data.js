@@ -103,4 +103,11 @@ const footerData = {
   text: "△ ☽ α",
 };
 
-export { profileData, linkData, themeData, footerData };
+const quotes = [
+  "Some people, I'd fight the world for.",
+  "We make our own luck.",
+  "Good luck. Don't fail.",
+  "Sweat memes, sweet dreams."
+];
+
+export { profileData, linkData, themeData, footerData, quotes };
