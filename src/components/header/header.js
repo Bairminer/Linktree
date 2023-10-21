@@ -49,6 +49,7 @@ const DarkMode = styled(DarkModeToggle)`
 `;
 
 const HeaderWrapper = styled.div`
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -56,7 +57,6 @@ const HeaderWrapper = styled.div`
 `;
 
 const CustomImage = styled(LazyLoadImage)`
-  margin-top: 20px;
   border-radius: 50%;
   width: 100px;
   height: 100px;
