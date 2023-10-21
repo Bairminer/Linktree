@@ -17,8 +17,8 @@ const themeData = {
   },
   dark: {
     backgroundColor: "#181a1f",
-    onHoverBackgroundColor: "#02040a",
-    cardBackgroundColor: "#222222",
+    onHoverBackgroundColor: "#1b1e28",
+    cardBackgroundColor: "#282c34",
     onHoverTextColor: "white",
     footerColor: "white",
     footerSocialLinkColor: "white",
