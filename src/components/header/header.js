@@ -56,6 +56,7 @@ const HeaderWrapper = styled.div`
 `;
 
 const CustomImage = styled(LazyLoadImage)`
+  margin-top: 20px;
   border-radius: 50%;
   width: 100px;
   height: 100px;
