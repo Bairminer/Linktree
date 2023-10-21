@@ -58,7 +58,7 @@ const linkData = [
   {
     id: 5,
     link: "https://twitter.com/Bairminer",
-    name: "X",
+    name: "X, formerly known as Twitter",
     image:
       "https://cdn.cms-twdigitalassets.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.2560.png",
   },
@@ -108,6 +108,17 @@ const quotes = [
   "\"We make our own luck.\"",
   "\"Good luck. Don't fail.\"",
   "\"Sweat memes, sweet dreams.\"",
+  "\"Never stop.\"",
 ];
 
-export { profileData, linkData, themeData, footerData, quotes };
+const songs = [
+  "https://open.spotify.com/embed/track/0tBbt8CrmxbjRP0pueQkyU?utm_source=generator",
+  "https://open.spotify.com/embed/track/1vn7Y9dR0e6i58R71yccG9?utm_source=generator",
+  "https://open.spotify.com/embed/track/3VvBPkc24zC7x05mgJTyGO?utm_source=generator",
+  "https://open.spotify.com/embed/track/7MXVkk9YMctZqd1Srtv4MB?utm_source=generator",
+  "https://open.spotify.com/embed/track/2K87XMYnUMqLcX3zvtAF4G?utm_source=generator",
+  "https://open.spotify.com/embed/track/40riOy7x9W7GXjyGp4pjAv?utm_source=generator",
+]
+
+
+export { profileData, linkData, themeData, footerData, quotes, songs };

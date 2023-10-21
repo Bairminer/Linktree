@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import styled from "styled-components";
 import { Zoom } from "react-reveal";
-import { profileData, themeData, quotes } from "../../data/data";
+import { profileData, themeData, quotes, songs } from "../../data/data";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import DarkModeToggle from "react-dark-mode-toggle";
 import themeContext from "../../state/context/themeContext";
@@ -11,7 +11,8 @@ const Header = () => {
   const a = useContext(themeContext);
   const { userName, photoLink, desc } = profileData;
   const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
-  
+  const randomSong = songs[Math.floor(Math.random() * songs.length)];
+
   if (!a.darkMode) {
     document.body.style.backgroundColor = themeData.dark.backgroundColor;
   } else {
@@ -30,6 +31,15 @@ const Header = () => {
             <UserNameText props={a.darkMode ? themeData.light : themeData.dark}>
               {desc}
             </UserNameText>
+            <StyledEmbedWrapper>
+              <iframe
+                  src={randomSong}
+                  frameBorder="0"
+                  allowFullScreen
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy">
+              </iframe>
+            </StyledEmbedWrapper>
             <QuoteText props={a.darkMode ? themeData.light : themeData.dark}>
               {randomQuote}
             </QuoteText>
@@ -74,4 +84,20 @@ const QuoteText = styled.h6`
   font-weight: bold;
   font-style: italic;
   text-align: center;
+`;
+
+
+const StyledEmbedWrapper = styled.div`
+    width: 40vw;
+    margin-top: 20px;
+  
+    @media (max-width: 768px) {
+        width: 90vw;
+    }
+
+    iframe {
+        width: 100%;  // Ensure the iframe takes up the full width of its parent div
+        height: 100px;
+        border: none;  // Remove any default borders from the iframe
+    }
 `;

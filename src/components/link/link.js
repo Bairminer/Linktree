@@ -39,6 +39,7 @@ const Link = () => {
 export default Link;
 
 const CustomDiv = styled.div`
+  margin-left: -10px;
   margin-bottom: 15px;
   border-radius: 15px;
   cursor: pointer;
@@ -63,6 +64,7 @@ const CustomDiv = styled.div`
   }
   p {
     flex: 1;
+    margin-left: -60px;
   }
   #image {
     margin-left: 10px;
@@ -79,3 +81,4 @@ const ParentWrapper = styled.div`
   justify-content: center;
   flex-direction: column;
 `;
+
