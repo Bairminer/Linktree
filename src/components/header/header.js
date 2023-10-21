@@ -33,6 +33,7 @@ const Header = () => {
             </UserNameText>
             <StyledEmbedWrapper>
               <iframe
+                  title="Spotify"
                   src={randomSong}
                   frameBorder="0"
                   allowFullScreen
