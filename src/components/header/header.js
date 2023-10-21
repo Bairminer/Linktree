@@ -71,6 +71,6 @@ const UserNameText = styled.h6`
 const QuoteText = styled.h6`
   color: ${(props) => props.props.headerFontColor};
   font-weight: bold;
-  font-style: italic
+  font-style: italic;
   text-align: center;
 `;
