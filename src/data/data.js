@@ -74,7 +74,7 @@ const linkData = [
     link: "https://www.twitch.tv/bairminer",
     name: "Twitch",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/7/74/Twitch-icon-5.png",
+      "https://w7.pngwing.com/pngs/968/223/png-transparent-logo-twitch-logos-brands-icon.png",
   },
   {
     id: 8,
