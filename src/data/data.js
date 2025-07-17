@@ -110,7 +110,7 @@ const quotes = [
   "\"Sweat memes, sweet dreams.\"",
   "\"Never stop.\"",
   "\"It's cute and fuzzy!\"",
-  "\"Frick"",
+  "\"Frick\"",
   "\"I need a new pfp\"",
 ];
 
