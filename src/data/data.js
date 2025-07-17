@@ -53,7 +53,7 @@ const linkData = [
     link: "https://www.reddit.com/user/Bairminer",
     name: "Reddit",
     image:
-      "https://www.redditinc.com/assets/images/site/reddit-logo.png",
+      "https://redditinc.com/hs-fs/hubfs/Reddit%20Inc/Content/Brand%20Page/Reddit_Logo.png?width=600&height=600&name=Reddit_Logo.png",
   },
   {
     id: 5,
