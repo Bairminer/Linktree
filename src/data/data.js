@@ -88,7 +88,7 @@ const linkData = [
     link: "https://imgur.com/user/Bairminer/submitted",
     name: "Imgur",
     image:
-      "https://static.wikia.nocookie.net/logopedia/images/9/9f/Imgur_Icon_2018.png/",
+      "https://i.imgur.com/KREIQHJ.png",
   },
   {
     id: 10,
