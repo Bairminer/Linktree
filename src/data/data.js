@@ -109,6 +109,9 @@ const quotes = [
   "\"Good luck. Don't fail.\"",
   "\"Sweat memes, sweet dreams.\"",
   "\"Never stop.\"",
+  "\"It's cute and fuzzy!\"",
+  "\"Frick"",
+  "\"I need a new pfp\"",
 ];
 
 const songs = [
