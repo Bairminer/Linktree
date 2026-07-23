@@ -60,7 +60,7 @@ const linkData = [
     link: "https://twitter.com/Bairminer",
     name: "X, formerly known as Twitter",
     image:
-      "https://about.x.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.2560.png",
+      "https://upload.wikimedia.org/wikipedia/commons/2/2d/Twitter_X.png",
   },
   {
     id: 6,
